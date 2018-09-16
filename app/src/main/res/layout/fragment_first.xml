@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Igor"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:fontFamily="@font/google_sans"
+        android:background="@color/lightBlue"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/tvDateTime"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:fontFamily="@font/google_sans"
+        android:background="@color/darkBlue"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/tvFeedTitle"
+        android:textSize="21sp"
+        android:textColor="@color/white"
+        android:padding="16dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:fontFamily="@font/google_sans"
+        android:background="@color/lightBlue"
+        />
+
+</LinearLayout>

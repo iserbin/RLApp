@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/out"
+    android:gravity="center"
+    android:padding="20dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/main"
+        android:clickable="false"
+        android:focusable="false"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:background="@drawable/bg_dialog_rounded_not_clickable"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:padding="8dp"
+            android:fontFamily="@font/google_sans_bold"
+            android:gravity="center"
+            />
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/body"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp"
+            android:fontFamily="@font/google_sans"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/lOk"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal|center_vertical"
+            android:background="@color/lightBlue"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginTop="12dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ok"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:fontFamily="@font/google_sans_bold"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
