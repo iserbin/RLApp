@@ -44,7 +44,7 @@ public class FirstFragment extends BaseRestoreFragment implements FirstView {
 
     @Override
     protected void initData(Bundle savedInstanceState) {
-        // noop
+        
     }
 
     @Override
