@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RLApp.iml" filepath="$PROJECT_DIR$/RLApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/RLApp-app.iml" filepath="$PROJECT_DIR$/app/RLApp-app.iml" group="RLApp/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tmp-RLApp.iml" filepath="$PROJECT_DIR$/tmp-RLApp.iml" group="RLApp" />
     </modules>
   </component>
 </project>

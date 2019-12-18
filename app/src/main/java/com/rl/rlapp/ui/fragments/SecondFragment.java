@@ -76,6 +76,8 @@ public class SecondFragment extends BaseRestoreFragment implements SecondView {
         rvSecond.setLayoutManager(llm);
         rvSecond.setAdapter(adapterSecond);
 
+        // todo something
+
         ItemClickSupport.addTo(rvSecond)
                 .setOnItemClickListener((recyclerView, position, v) -> {
                     Article item = adapterSecond.getItem(position);
